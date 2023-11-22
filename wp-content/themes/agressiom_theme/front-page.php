@@ -24,7 +24,7 @@ get_header(); ?>
 </section>
 
 <section class="new-product">
-    New
+    New product
     <?php
 
     ?>
