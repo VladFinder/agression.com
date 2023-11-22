@@ -1,0 +1,45 @@
+2023-11-22T10:12:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in E:\OSPanel\domains\agression.com\wp-content\themes\agressiom_theme\header.php on line 7 and at least 1 expected in E:\OSPanel\domains\agression.com\wp-includes\nav-menu.php:697
+Stack trace:
+#0 E:\OSPanel\domains\agression.com\wp-content\themes\agressiom_theme\header.php(7): wp_get_nav_menu_items()
+#1 E:\OSPanel\domains\agression.com\wp-includes\template.php(790): require_once('E:\\OSPanel\\doma...')
+#2 E:\OSPanel\domains\agression.com\wp-includes\template.php(725): load_template()
+#3 E:\OSPanel\domains\agression.com\wp-includes\general-template.php(48): locate_template()
+#4 E:\OSPanel\domains\agression.com\wp-content\themes\agressiom_theme\front-page.php(2): get_header()
+#5 E:\OSPanel\domains\agression.com\wp-includes\template-loader.php(106): include('E:\\OSPanel\\doma...')
+#6 E:\OSPanel\domains\agression.com\wp-blog-header.php(19): require_once('E:\\OSPanel\\doma...')
+#7 E:\OSPanel\domains\agression.com\index.php(17): require('E:\\OSPanel\\doma...')
+#8 {main}
+  thrown в E:\OSPanel\domains\agression.com\wp-includes\nav-menu.php на строке 697
+
+2023-11-22T21:05:41+00:00 CRITICAL Uncaught Error: Undefined constant "woocommerce_" in E:\OSPanel\domains\agression.com\wp-content\themes\agressiom_theme\front-page.php:28
+Stack trace:
+#0 E:\OSPanel\domains\agression.com\wp-includes\template-loader.php(106): include()
+#1 E:\OSPanel\domains\agression.com\wp-blog-header.php(19): require_once('E:\\OSPanel\\doma...')
+#2 E:\OSPanel\domains\agression.com\index.php(17): require('E:\\OSPanel\\doma...')
+#3 {main}
+  thrown в E:\OSPanel\domains\agression.com\wp-content\themes\agressiom_theme\front-page.php на строке 28
+
+2023-11-22T21:06:13+00:00 CRITICAL Uncaught Error: Undefined constant "woocommerce_" in E:\OSPanel\domains\agression.com\wp-content\themes\agressiom_theme\front-page.php:28
+Stack trace:
+#0 E:\OSPanel\domains\agression.com\wp-includes\template-loader.php(106): include()
+#1 E:\OSPanel\domains\agression.com\wp-blog-header.php(19): require_once('E:\\OSPanel\\doma...')
+#2 E:\OSPanel\domains\agression.com\index.php(17): require('E:\\OSPanel\\doma...')
+#3 {main}
+  thrown в E:\OSPanel\domains\agression.com\wp-content\themes\agressiom_theme\front-page.php на строке 28
+
+2023-11-22T21:07:08+00:00 CRITICAL Uncaught Error: Undefined constant "woocommerce_" in E:\OSPanel\domains\agression.com\wp-content\themes\agressiom_theme\front-page.php:28
+Stack trace:
+#0 E:\OSPanel\domains\agression.com\wp-includes\template-loader.php(106): include()
+#1 E:\OSPanel\domains\agression.com\wp-blog-header.php(19): require_once('E:\\OSPanel\\doma...')
+#2 E:\OSPanel\domains\agression.com\index.php(17): require('E:\\OSPanel\\doma...')
+#3 {main}
+  thrown в E:\OSPanel\domains\agression.com\wp-content\themes\agressiom_theme\front-page.php на строке 28
+
+2023-11-22T22:06:20+00:00 CRITICAL Uncaught Error: Call to undefined function content_class_by_sidebar() in E:\OSPanel\domains\agression.com\wp-content\themes\agressiom_theme\woocommerce.php:10
+Stack trace:
+#0 E:\OSPanel\domains\agression.com\wp-includes\template-loader.php(106): include()
+#1 E:\OSPanel\domains\agression.com\wp-blog-header.php(19): require_once('E:\\OSPanel\\doma...')
+#2 E:\OSPanel\domains\agression.com\index.php(17): require('E:\\OSPanel\\doma...')
+#3 {main}
+  thrown в E:\OSPanel\domains\agression.com\wp-content\themes\agressiom_theme\woocommerce.php на строке 10
+
